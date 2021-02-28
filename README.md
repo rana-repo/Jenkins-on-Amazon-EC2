@@ -1,9 +1,4 @@
-# Jenkins-on-Amazon-EC2
-
-
-
-*******************************************************************
-******Jenkins Installation& Configuration on AWS EC2 instance******
+# Jenkins Installation& Configuration on AWS EC2 instance
 *******************************************************************
 
 Installation 
@@ -29,7 +24,7 @@ Installation
 	  service jenkins start
 	
 
-Configuration
+# Configuration
 
 1. Open default port 8080 in security group. Set Inbound rule and Open port 8080 to all tcp traffic.
 2. Login to Jenkins console
