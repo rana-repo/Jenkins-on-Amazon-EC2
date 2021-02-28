@@ -28,6 +28,9 @@
 6. Start Jenkins Service
 #
 	service jenkins start
+7. Setup Jenkins to start at boot
+#
+	systemctl enable jenkins
 	
 
 # Configuration
