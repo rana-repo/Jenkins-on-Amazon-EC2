@@ -37,7 +37,8 @@
 #
 	<Public-IP>:8080
 	Username : admin
-	Password location: /var/lib/jenkins/secrets/initialAdminPassword
+	Password location: /var/lib/jenkins/secrets/initialAdminPassword 
+	(Remove this file once you create admin credentials)
 3. Skip plugins installation (Can be done later)
 4. Change admin password
   #
