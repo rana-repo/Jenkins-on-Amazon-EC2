@@ -1,27 +1,32 @@
 # Jenkins Installation& Configuration on AWS EC2 instance
 *******************************************************************
 
-Installation 
+# Installation 
 
 1. Lanuch AWS EC2 instance.
-# Install java and set path
+2. Install java and set path
+#
 	  sudo su -
 	  yum install java-1.8*
 	  java -version
-# Steps to set java path permanently
+3. Steps to set java path permanently
+#
 	whereis java or find / -name javac
 	ls -la
 	vi .bash_profile
 	JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto.x86_64/
 	PATH=$PATH:$JAVA_HOME:$HOME/bin
-# Download Jenkins on to EC2 Instance using yum.
+4. Download Jenkins on to EC2 Instance using yum.
+  #  
     yum install wget -y 
     sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
     sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
 	
-# Install Jenkin
+5. Install Jenkin
+#
 	yum install jenkins -y
-# Start Jenkins Service
+6. Start Jenkins Service
+#
 	service jenkins start
 	
 
