@@ -13,15 +13,15 @@ Installation
     vi .bash_profile
     JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto.x86_64/
     PATH=$PATH:$JAVA_HOME:$HOME/bin
-# Download jenkins on to EC2 instance.
+# Download Jenkins on to EC2 Instance.
     yum install wget -y 
     sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
     sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
 	
-# Install jenkin
+# Install Jenkin
 	yum install jenkins -y
-# Start jenkins service
-	  service jenkins start
+# Start Jenkins Service
+	service jenkins start
 	
 
 # Configuration
@@ -34,7 +34,9 @@ Installation
 	Password location: /var/lib/jenkins/secrets/initialAdminPassword
 3. Skip plugins installation (Can be done later)
 4. Change admin password
+  #
 	  admin > configurate > Password
 5. Configure java path under jenkins configuration
-  	Manage Jenkins > Global Tool Configuration > JDK > Add JAVA_PATH
+  #
+	Manage Jenkins > Global Tool Configuration > JDK > Add JAVA_PATH
 	
