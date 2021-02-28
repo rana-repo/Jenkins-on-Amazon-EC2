@@ -14,7 +14,7 @@
 	whereis java or find / -name javac
 	ls -la
 	vi .bash_profile
-	JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto.x86_64/
+	JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-1.amzn2.0.1.x86_64/
 	PATH=$PATH:$JAVA_HOME:$HOME/bin
 4. Download Jenkins on to EC2 Instance using yum.
   #  
