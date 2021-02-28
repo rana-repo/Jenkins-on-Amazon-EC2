@@ -12,8 +12,8 @@ Installation
 	whereis java
 	ls -la
 	vi .bash_profile
-    	JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto.x86_64/
-    	PATH=$PATH:$JAVA_HOME:$HOME/bin
+	JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto.x86_64/
+	PATH=$PATH:$JAVA_HOME:$HOME/bin
 # Download Jenkins on to EC2 Instance using yum.
     yum install wget -y 
     sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
