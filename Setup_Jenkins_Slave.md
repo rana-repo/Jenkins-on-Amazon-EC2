@@ -36,7 +36,7 @@ Below commands copy Slave node's public key[id_rsa.pub] to Master Node's known_h
     chown jenkins:jenkins known_hosts
     chmod 700 known_hosts
 
-# Next step is to Configuring Slave on Jenkins using Manage Jenkins
+# Next step is to Configuring Slave on Jenkins GUI using Manage Jenkins
 #
     Manage Jenkins > Manage Nodes > New Node
 
