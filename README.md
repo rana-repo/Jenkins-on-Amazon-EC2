@@ -9,7 +9,7 @@ Installation
 	  yum install java-1.8*
 	  java -version
 # Steps to set java path permanently
-	whereis java or finr / -name javac
+	whereis java or find / -name javac
 	ls -la
 	vi .bash_profile
 	JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto.x86_64/
